@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofio Website</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-box">
+            <ul class="menu">
+              <li><a href="#DataDiri">Data Diri</a></li>
+              <li><a href="#">Riwayat Pendidikan</a></li>
+              <li><a href="#">Skill</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar -->
+
+      <!-- Hero -->
+      <div class="hero">
+        <div class="container">
+          <div class="hero-box">
+            <img src="Foto/hero.png" alt="Hero Image" />
+            <h1>
+              Hai!, Saya <span id="element"></span> <br />
+              Graphic Designer
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!-- Hero -->
+
+      <!-- Waves -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0653c9"
+          fill-opacity="1"
+          d="M0,96L26.7,112C53.3,128,107,160,160,176C213.3,192,267,192,320,176C373.3,160,427,128,480,117.3C533.3,107,587,117,640,133.3C693.3,149,747,171,800,192C853.3,213,907,235,960,229.3C1013.3,224,1067,192,1120,186.7C1173.3,181,1227,203,1280,192C1333.3,181,1387,139,1413,117.3L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+      <!-- Waves -->
+    </header>
+    <!-- Tentang -->
+    <div class="tentang">
+      <div class="container">
+        <h1>Data Diri</h1>
+        <div class="tentang-box">
+          <div class="box">
+            <img src="Foto/tentang.png" alt="tentang-img" />
+            <div>
+              <p>
+                Saya yang bernama Muhammad Alfin Al Muzakki, lahir di Surabaya
+                pada tanggal 25 Maret 2007. Saat ini saya berdomisili di Jl.
+                Merpati No. 12, Surabaya, Jawa Timur. Saya adalah seorang
+                pelajar SMK yang memiliki ketertarikan besar dalam bidang desain
+                grafis dan pengembangan web. Sebagai pribadi yang disiplin,
+                kreatif, dan mudah beradaptasi, saya selalu berusaha memberikan
+                hasil terbaik dalam setiap pekerjaan yang saya lakukan. Saya
+                memiliki kemampuan di bidang desain grafis menggunakan Coreldraw
+                dan Figma, serta memahami dasar-dasar pemrograman web seperti
+                HTML, CSS, dan PHP. Saya dapat dihubungi melalui nomor
+                0812-3456-7890 atau email di alfinmuzakki@gmail.com . Di luar
+                kegiatan belajar, saya mengembangkan keterampilan digital untuk
+                menunjang karier di masa depan.
+              </p>
+              <a href="#">Lihat Riwayat Pendidikan</a>
+            </div>
+          </div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Tentang -->
+
+    <!-- JS -->
+    <script src="script.js"></script>
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Alfin"],
+        typeSpeed: 300,
+        loop: true,
+        showCursor: false,
+        backspace: 100,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
